@@ -15,7 +15,7 @@ import Logo from "./images/logo.svg";
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "maximelabonde";
 
 // Navbar Logo image
 export const navLogo = null;
@@ -35,7 +35,7 @@ export { HeroDark as Dark };
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "Développeur Front-End passionné et créatif. Expertise dans l'utilisation du frameworks React. Compétent en intégration d'API, optimisation des performances et conception UX/UI. Soucieux du détail et de la qualité du code, je cherche toujours à créer des expériences utilisateur fluides et accessibles.";
 
 /* Skills
  ************************************************************** 
@@ -59,8 +59,8 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
+    skill: <Icon icon="fa6-brands:sass" className="display-4" />,
+    name: "Sass",
   },
   {
     id: 5,
@@ -69,13 +69,13 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
+    name: "Redux",
   },
   {
     id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
+    skill: <Icon icon="bxl:visual-studio" className="display-4" />,
+    name: "VS Code",
   },
   {
     id: 8,
@@ -96,7 +96,7 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["ohmyfood-main-OC", "sophie-bluel-main-OC", "kasa-main-OC"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
