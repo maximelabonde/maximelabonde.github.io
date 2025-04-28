@@ -116,7 +116,7 @@ export const projectCardImages = [
     image: reactLogo,
   },
   {
-    name: "Portfolio",
+    name: "maximelabonde.github.io",
     image: devLogo,
   }
 ];
