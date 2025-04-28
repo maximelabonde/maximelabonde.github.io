@@ -9,7 +9,10 @@ import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import reactLogo from "./images/react-svgrepo-com.svg";
+import sassLogo from "./images/sass-svgrepo-com.svg";
+import jsLogo from "./images/javascript-svgrepo-com.svg";
+import devLogo from "./images/development.webp";
 
 /* START HERE
  **************************************************************
@@ -45,12 +48,12 @@ export const skillData = [
   {
     id: 1,
     skill: <Icon icon="mdi:language-html5" className="display-4" />,
-    name: "HTML5",
+    name: "HTML",
   },
   {
     id: 2,
     skill: <Icon icon="ion:logo-css3" className="display-4" />,
-    name: "CSS3",
+    name: "CSS",
   },
   {
     id: 3,
@@ -101,9 +104,21 @@ export const filteredProjects = ["ohmyfood-main-OC", "sophie-bluel-main-OC", "ka
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "ohmyfood-main-OC",
+    image: sassLogo,
   },
+  {
+    name: "sophie-bluel-main-OC",
+    image: jsLogo,
+  },
+  {
+    name: "kasa-main-OC",
+    image: reactLogo,
+  },
+  {
+    name: "maximelabonde.github.io",
+    image: devLogo,
+  }
 ];
 
 /* Contact Info
