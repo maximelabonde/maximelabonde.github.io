@@ -39,7 +39,7 @@ const Skills = () => {
                 variant={theme === "light" ? "outline-dark" : "outline-light"}
                 className="mt-5"
               >
-                R&eacute;sum&eacute;
+                Mon CV
               </Button>
             </a>
           )}
