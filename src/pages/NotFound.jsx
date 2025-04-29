@@ -55,11 +55,9 @@ const NotFound = () => {
     <>
       <StyledNotFound>
         <Container className="d-flex justify-content-center">
-          <span>4</span>
-          <img src={Logo} alt="React Logo" className="logo-img" />
-          <span>4</span>
+          <span>404</span>
         </Container>
-        <p className="text-center">Sorry, page not found...</p>
+        <p className="text-center">Désolé, page non trouvée...</p>
       </StyledNotFound>
     </>
   );
