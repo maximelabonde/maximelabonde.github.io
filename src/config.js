@@ -12,6 +12,7 @@ import HeroDark from "./images/hero-dark.jpg";
 import reactLogo from "./images/react-svgrepo-com.svg";
 import sassLogo from "./images/sass-svgrepo-com.svg";
 import jsLogo from "./images/javascript-svgrepo-com.svg";
+import reduxLogo from "./images/redux-svgrepo-com.svg"
 import devLogo from "./images/development.webp";
 
 /* START HERE
@@ -114,6 +115,10 @@ export const projectCardImages = [
   {
     name: "Kasa",
     image: reactLogo,
+  },
+  {
+    name: "Argent-Bank",
+    image: reduxLogo,
   },
   {
     name: "maximelabonde.github.io",
