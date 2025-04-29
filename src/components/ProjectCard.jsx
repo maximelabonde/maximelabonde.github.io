@@ -85,7 +85,7 @@ const ProjectCard = ({ demo, description, image, name, url }) => {
         </Card.Body>
         <Card.Footer className="text-center">
           <Card.Link href={url}>
-            {"View on GitHub "}
+            {"Voir sur GitHub "}
             <Icon icon="icomoon-free:github" />
           </Card.Link>
           {demo !== "" ? (

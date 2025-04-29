@@ -16,14 +16,14 @@ import ThemeToggle from "./ThemeToggle";
 // #region constants
 const navLinks = {
   routes: [
-    { id: "1R", name: "Home", route: "/" },
-    { id: "2R", name: "All Projects", route: "/All-Projects" },
+    { id: "1R", name: "Accueil", route: "/" },
+    { id: "2R", name: "Tous les projets", route: "/All-Projects" },
   ],
   to: [
-    { id: "1T", name: "Home", to: "Home" },
-    { id: "2T", name: "About Me", to: "About" },
-    { id: "3T", name: "Skills", to: "Skills" },
-    { id: "4T", name: "Projects", to: "Projects" },
+    { id: "1T", name: "Accueil", to: "Home" },
+    { id: "2T", name: "À propos", to: "About" },
+    { id: "3T", name: "Compétences", to: "Skills" },
+    { id: "4T", name: "Projets", to: "Projects" },
     { id: "5T", name: "Contact", to: "Contact" },
   ],
 };

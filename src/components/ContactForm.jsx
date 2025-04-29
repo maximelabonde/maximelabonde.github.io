@@ -74,28 +74,28 @@ const ContactForm = () => {
     <StyledForm>
       <Form noValidate validated={isValidated} onSubmit={handleSubmit}>
         <Form.Group className="mx-auto mb-3 form-group" controlId="name">
-          <Form.Label>Name</Form.Label>
-          <Form.Control required type="text" placeholder="Your name" />
+          <Form.Label>Nom</Form.Label>
+          <Form.Control required type="text" placeholder="Votre nom" />
           <Form.Control.Feedback type="invalid">
-            <h5>Name must be at least one character.</h5>
+            <h5>Le nom doit comporter au moins un caractère.</h5>
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group className="mx-auto mb-3 form-group" controlId="email">
-          <Form.Label>Email address</Form.Label>
+          <Form.Label>Email</Form.Label>
           <Form.Control
             required
             pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
-            placeholder="someone@something.com"
+            placeholder="abc@example.com"
           />
           <Form.Control.Feedback type="invalid">
-            <h5>Please enter a valid email.</h5>
+            <h5>Veuillez entrer une adresse email valide.</h5>
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group className="mx-auto mb-3 form-group" controlId="message">
           <Form.Label>Message</Form.Label>
-          <Form.Control required as="textarea" placeholder="Your message..." />
+          <Form.Control required as="textarea" placeholder="Votre message..." />
           <Form.Control.Feedback type="invalid">
-            <h5>Please provide a valid message.</h5>
+            <h5>Veuillez fournir un message valide.</h5>
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group className="mx-auto text-center form-group">
@@ -107,7 +107,7 @@ const ContactForm = () => {
               disabled={isProcessing}
               className="my-4"
             >
-              Submit{" "}
+              Envoyer{" "}
               {isProcessing && (
                 <Spinner animation="border" variant="success" size="sm" />
               )}
@@ -119,7 +119,7 @@ const ContactForm = () => {
             onClose={() => setSuccess(false)}
             dismissible
           >
-            <Alert.Heading>Success! I will contact you soon.</Alert.Heading>
+            <Alert.Heading>Succès ! Je vous contacterai bientôt.</Alert.Heading>
           </Alert>
           <Alert
             show={danger}

@@ -113,7 +113,7 @@ const AllProjects = () => {
     content = (
       <>
         <Container className="d-flex justify-content-center">
-          <Title size={"h2"} text={"All Projects"} />
+          <Title size={"h2"} text={"Tous les projets"} />
         </Container>
         <Container className="d-flex flex-column justify-content-center">
           <Loading />
@@ -124,7 +124,7 @@ const AllProjects = () => {
     content = (
       <>
         <Container className="d-flex justify-content-center">
-          <Title size={"h2"} text={"All Projects"} />
+          <Title size={"h2"} text={"Tous les projets"} />
         </Container>
         <Container>
           <InputGroup className="mx-auto mb-3">
@@ -132,7 +132,7 @@ const AllProjects = () => {
               <Icon icon="ic:round-search" />
             </InputGroup.Text>
             <FormControl
-              placeholder="Project name"
+              placeholder="Recherche..."
               aria-label="Search projects"
               aria-describedby="search"
               onChange={(e) => setSearchInput(e.currentTarget.value)}

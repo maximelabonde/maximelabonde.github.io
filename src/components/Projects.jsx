@@ -63,7 +63,7 @@ const Projects = () => {
                       theme === "light" ? "outline-dark" : "outline-light"
                     }
                   >
-                    All <Icon icon="icomoon-free:github" /> Projects
+                    Tous les projets <Icon icon="icomoon-free:github" />
                   </Button>
                 </Link>
               </Container>
@@ -85,7 +85,7 @@ const Projects = () => {
       <section className="section">
         <Container>
           <Container className="d-flex justify-content-center">
-            <Title size={"h2"} text={"Projects"} />
+            <Title size={"h2"} text={"Projets"} />
           </Container>
           {content}
         </Container>
