@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0a127fca.css",
-    "main.js": "/static/js/main.38cbe6ab.js",
+    "main.js": "/static/js/main.515c31eb.js",
     "static/media/hero-dark.jpg": "/static/media/hero-dark.37f2556d620821979e99.jpg",
     "static/media/hero-light.jpg": "/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
     "service-worker.js": "/service-worker.js",
@@ -13,10 +13,10 @@
     "static/media/sass-svgrepo-com.svg": "/static/media/sass-svgrepo-com.a64c28f1140d3a8cafb1f9d6846a3888.svg",
     "static/media/javascript-svgrepo-com.svg": "/static/media/javascript-svgrepo-com.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
     "main.0a127fca.css.map": "/static/css/main.0a127fca.css.map",
-    "main.38cbe6ab.js.map": "/static/js/main.38cbe6ab.js.map"
+    "main.515c31eb.js.map": "/static/js/main.515c31eb.js.map"
   },
   "entrypoints": [
     "static/css/main.0a127fca.css",
-    "static/js/main.38cbe6ab.js"
+    "static/js/main.515c31eb.js"
   ]
 }
