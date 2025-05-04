@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 // Icons
 import { Icon } from "@iconify/react";
 // Images
-import Logo from "../images/development.webp";
+import Logo from "../images/development-web-development-svgrepo-com.svg";
 import { Light, Dark } from "../config";
 // Components
 import { useErrorBoundary } from "react-error-boundary";
@@ -118,6 +118,9 @@ const Hero = ({ name }) => {
               src={Logo}
               alt="React Logo"
               className="w-75 mx-auto hero-img"
+              style={{
+                transform: 'scale(0.6)'
+              }}
             />
           </Col>
         </Row>

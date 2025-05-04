@@ -78,6 +78,10 @@ const ProjectCard = ({ demo, description, image, name, url }) => {
           src={image ? image : GH}
           alt={name}
           className="mx-auto"
+          style={{
+            borderTopLeftRadius: '10px',
+            borderTopRightRadius: '10px'
+          }}
         />
         <Card.Body className="overflow-auto text-center">
           <Card.Title>{name}</Card.Title>

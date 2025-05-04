@@ -9,11 +9,11 @@ import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
 
 // Projects Images (add your images to the images directory and import below)
-import reactLogo from "./images/react-svgrepo-com.svg";
-import sassLogo from "./images/sass-svgrepo-com.svg";
-import jsLogo from "./images/javascript-svgrepo-com.svg";
-import reduxLogo from "./images/redux-svgrepo-com.svg"
-import devLogo from "./images/development.webp";
+import ohmyfoofImg from "./images/projects/ohmyfood.webp"
+import sophieBluelImg from "./images/projects/sophie-bluel.webp"
+import kasaImg from "./images/projects/kasa.webp"
+import argentBankImg from "./images/projects/argent-bank.webp"
+import portfolioImg from "./images/projects/portfolio.webp"
 
 /* START HERE
  **************************************************************
@@ -106,23 +106,23 @@ export const filteredProjects = ["Ohmyfood", "Sophie-Bluel", "Kasa"];
 export const projectCardImages = [
   {
     name: "Ohmyfood",
-    image: sassLogo,
+    image: ohmyfoofImg,
   },
   {
     name: "Sophie-Bluel",
-    image: jsLogo,
+    image: sophieBluelImg,
   },
   {
     name: "Kasa",
-    image: reactLogo,
+    image: kasaImg,
   },
   {
     name: "Argent-Bank",
-    image: reduxLogo,
+    image: argentBankImg,
   },
   {
     name: "maximelabonde.github.io",
-    image: devLogo,
+    image: portfolioImg,
   }
 ];
 

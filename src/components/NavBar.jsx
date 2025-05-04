@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 // Router
 import { Link, useLocation } from "react-router-dom";
 // Images
-import defaultLogo from "../images/development.webp";
+import defaultLogo from "../images/development-web-development-svgrepo-com.svg";
 // Components
 import { Link as ScrollLink } from "react-scroll";
 import { Container, Nav, Navbar } from "react-bootstrap";
@@ -77,7 +77,6 @@ const NavBar = ({ Logo = defaultLogo, callBack, closeDelay = 125 }) => {
               src={Logo === null ? defaultLogo : Logo}
               width="35"
               height="35"
-              className="rounded-circle logo-img"
             />
           </Navbar.Brand>
           <Navbar.Toggle
