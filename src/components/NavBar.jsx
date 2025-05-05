@@ -12,6 +12,8 @@ import defaultLogo from "../images/development-web-development-svgrepo-com.svg";
 import { Link as ScrollLink } from "react-scroll";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import ThemeToggle from "./ThemeToggle";
+// Config
+import { resume } from "../config";
 
 // #region constants
 const navLinks = {
@@ -128,6 +130,15 @@ const NavBar = ({ Logo = defaultLogo, callBack, closeDelay = 125 }) => {
                   })}
             </Nav>
             <Nav>
+              {resume && (<Nav.Item>
+                <Link to={resume} 
+                className="nav-link" style={{
+                  alignSelf: "center",
+                  padding: "0",
+                  paddingRight: "16px",
+                  marginBlock: "4px"
+                }}>Mon CV</Link>
+              </Nav.Item>)}
               <ThemeToggle
                 closeDelay={closeDelay}
                 setExpanded={setisExpanded}

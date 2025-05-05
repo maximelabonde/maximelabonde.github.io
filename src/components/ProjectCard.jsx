@@ -88,16 +88,16 @@ const ProjectCard = ({ demo, description, image, name, url }) => {
           <Card.Text>{description}</Card.Text>
         </Card.Body>
         <Card.Footer className="text-center">
+        {demo !== "" ? (
+            <Card.Link href={demo}>
+              {"Démo "}
+              <Icon icon="icon-park-outline:code-computer" />
+            </Card.Link>
+          ) : null}
           <Card.Link href={url}>
             {"Voir sur GitHub "}
             <Icon icon="icomoon-free:github" />
           </Card.Link>
-          {demo !== "" ? (
-            <Card.Link href={demo}>
-              {"Live Demo "}
-              <Icon icon="icon-park-outline:code-computer" />
-            </Card.Link>
-          ) : null}
         </Card.Footer>
       </Card>
     </StyledCard>

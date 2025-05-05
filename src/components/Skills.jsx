@@ -1,17 +1,13 @@
 import React from "react";
-// State
-import { useSelector } from "react-redux";
-import { selectMode } from "../app/appSlice";
 // Components
 import { Element } from "react-scroll";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import Title from "./Title";
 // Config
-import { skillData, resume } from "../config";
+import { skillData } from "../config";
 
 // #region component
 const Skills = () => {
-  const theme = useSelector(selectMode);
 
   return (
     <Element name={"Skills"} id="skills">
@@ -32,17 +28,6 @@ const Skills = () => {
               );
             })}
           </Row>
-          {resume && (
-            <a href={resume}>
-              <Button
-                size="lg"
-                variant={theme === "light" ? "outline-dark" : "outline-light"}
-                className="mt-5"
-              >
-                Mon CV
-              </Button>
-            </a>
-          )}
         </Container>
       </section>
     </Element>
