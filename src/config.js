@@ -39,7 +39,7 @@ export { HeroDark as Dark };
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "Développeur Front-End passionné et créatif. Expertise dans l'utilisation du frameworks React. Compétent en intégration d'API, optimisation des performances et conception UX/UI. Soucieux du détail et de la qualité du code, je cherche toujours à créer des expériences utilisateur fluides et accessibles.";
+  "Développeur Front-End passionné et créatif. Compétent en intégration d'API, optimisation des performances et conception UX/UI. Soucieux du détail et de la qualité du code, je cherche toujours à créer des expériences utilisateur fluides et accessibles.";
 
 /* Skills
  ************************************************************** 
